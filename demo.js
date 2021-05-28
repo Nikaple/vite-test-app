@@ -8,4 +8,4 @@ const demo = async () => {
   document.body.innerHTML = `Your fingerprint is: ${fingerprint()}`
 }
 
-demo();
+demo().catch(console.error);
